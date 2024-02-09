@@ -1,6 +1,6 @@
 # Fredformer
 
-This is a simple example (already anonymized) related to the paper " ."
+This is a simple example (already anonymized) related to the paper "Fredformer: Frequency Debiased Transformer for Time Series Forecasting"
 
 # Dependencies
 Fredformer is built based on PyTorch.
