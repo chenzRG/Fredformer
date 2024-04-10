@@ -1,5 +1,9 @@
 # Fredformer
 
+#20240410:
+Some additional experiment results have been added to the Folder "./rebuttal_pics".
+
+
 This is a simple example (already anonymized) related to the paper "Fredformer: Frequency Debiased Transformer for Time Series Forecasting"
 
 # Dependencies
