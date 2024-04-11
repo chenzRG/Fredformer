@@ -76,7 +76,7 @@ class Exp_Main(Exp_Basic):
         return criterion,criterion2
     
     def select_regularization(self):
-        self.weight_decay=self.args.cf_weight_decay # 正则化参数
+        self.weight_decay=self.args.cf_weight_decay 
         #print("self.weight_decay=",self.weight_decay)
         if self.weight_decay>0:
             self.reg_loss=Regularization(self.model, self.args.cf_weight_decay, self.args.cf_p).to(self.device)
