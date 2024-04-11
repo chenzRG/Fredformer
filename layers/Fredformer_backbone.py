@@ -89,8 +89,6 @@ class Fredformer_backbone(nn.Module):
         patch_num  = z1.shape[1]
         c_in       = z1.shape[2]
         patch_len  = z1.shape[3]
-
-        #这里为止是z1和z2，即原始数据的处理。接下来z3和z4是基于原始数据之上的提取出的特征。
         
         #proposed
         z1 = torch.reshape(z1, (batch_size*patch_num,c_in,z1.shape[-1]))                            # z: [bs * patch_num,nvars, patch_len]
