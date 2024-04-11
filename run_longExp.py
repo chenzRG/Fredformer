@@ -24,7 +24,7 @@ parser.add_argument('--cf_heads',       type=int, default=6)    #number of multi
 parser.add_argument('--cf_mlp',         type=int, default=128)  #MLP dimension
 parser.add_argument('--cf_head_dim',    type=int, default=32)   #dimension for single head
 parser.add_argument('--cf_weight_decay',type=float, default=0)  #weight_decay
-parser.add_argument('--cf_p',           type=int, default=1)    #p_type
+parser.add_argument('--cf_p',           type=int, default=1)    #patch_type
 parser.add_argument('--use_nys',           type=int, default=0)    #output type
 parser.add_argument('--mlp_drop',           type=float, default=0.3)    #output type
 parser.add_argument('--ablation',       type=int, default=0)    #ablation study 012.
