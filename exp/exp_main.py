@@ -26,11 +26,8 @@ from thop import profile
 from thop import clever_format
 
 
-
-# 获取可用的GPU数量
 num_gpus = torch.cuda.device_count()
 
-# 根据可用GPU数量设置CUDA_VISIBLE_DEVICES
 if num_gpus >= 3:
     os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2"
 elif num_gpus >= 2:
