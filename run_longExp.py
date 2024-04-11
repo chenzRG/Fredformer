@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser(description='Autoformer & Transformer family fo
 parser.add_argument('--cf_dim',         type=int, default=48)   #feature dimension
 parser.add_argument('--cf_drop',        type=float, default=0.2)#dropout
 parser.add_argument('--cf_depth',       type=int, default=2)    #Transformer layer
-parser.add_argument('--cf_heads',       type=int, default=6)    #几个multi-heads
+parser.add_argument('--cf_heads',       type=int, default=6)    #number of multi-heads
 #parser.add_argument('--cf_patch_len',  type=int, default=16)   #patch length
 parser.add_argument('--cf_mlp',         type=int, default=128)  #MLP dimension
 parser.add_argument('--cf_head_dim',    type=int, default=32)   #dimension for single head
