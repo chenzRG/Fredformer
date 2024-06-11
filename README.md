@@ -1,10 +1,6 @@
 # Fredformer
 
-#20240410:
-Some additional experiment results have been added to the Folder "./rebuttal_pics".
-
-
-This is a simple example (already anonymized) related to the paper "Fredformer: Frequency Debiased Transformer for Time Series Forecasting"
+This code is related to the paper "Fredformer: Frequency Debiased Transformer for Time Series Forecasting" (KDD2024).
 
 # Dependencies
 Fredformer is built based on PyTorch.
@@ -29,7 +25,7 @@ You can run the following command, then open ```./result.txt``` to see the resul
 ```
 sh ./scripts/Fredformer/weather.sh
  ```
-Log files will be generated and updated in  ```./logs/``` during the training process.
+Log files will be generated and updated in  ```./logs/``` during training.
 
 
-All baselines can be found in https://github.com/thuml/Time-Series-Library.
+All baselines can be found at https://github.com/thuml/Time-Series-Library.
