@@ -18,6 +18,19 @@ pip install -r requirements.txt
 # About data:
 We have prepared a dataset for this example: Weather. The CSV file is in the dataset folder.
 
+# Some main parameters:
+
+- `--patch_len` (int, default=16): Frequency patching length.
+- `--cf_dim` (int, default=48): Feature dimension.
+- `--cf_drop` (float, default=0.2): Dropout rate.
+- `--cf_depth` (int, default=2): Number of Transformer layers.
+- `--cf_heads` (int, default=6): Number of multi-heads.
+- `--cf_mlp` (int, default=128): Feed-forward network dimension.
+- `--cf_head_dim` (int, default=32): Dimension for each single head.
+- `--use_nys` (int, default=0): Use Nyström method (0 = No, 1 = Yes).
+- `--mlp_drop` (float, default=0.3): Dropout rate for MLP.
+
+
 # Training. 
 For Fredfromer:
 The scripts for our are in the directory ```./scripts/Fredformer```.
