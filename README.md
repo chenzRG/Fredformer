@@ -18,6 +18,11 @@ pip install -r requirements.txt
 # About data:
 We have prepared a dataset for this example: Weather. The CSV file is in the dataset folder.
 
+# Custom Data Usage
+
+If you are using your own data, please format it as a CSV file, with each row representing a sample and each column representing a channel. 
+When selecting the data type "data_name," please choose "Custom" and ensure the CSV file is stored in the `dataset` folder.
+
 # Some main parameters:
 
 - `--patch_len` (int, default=16): Frequency patching length.
