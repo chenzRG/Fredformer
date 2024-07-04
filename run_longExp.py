@@ -15,7 +15,7 @@ else:
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"  
 parser = argparse.ArgumentParser(description='Autoformer & Transformer family for Time Series Forecasting')
 
-
+#Fredformer:
 parser.add_argument('--cf_dim',         type=int, default=48)   #feature dimension
 parser.add_argument('--cf_drop',        type=float, default=0.2)#dropout
 parser.add_argument('--cf_depth',       type=int, default=2)    #Transformer layer
