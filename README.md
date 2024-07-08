@@ -45,5 +45,15 @@ sh ./scripts/Fredformer/weather.sh
  ```
 Log files will be generated and updated in  ```./logs/``` during training.
 
+# Citation
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{Piao2024fredformer,
+  title={Fredformer: Frequency Debiased Transformer for Time Series Forecasting},
+  author={Xihao Piao and Zheng Chen and Taichi Murayama and Yasuko Matsubara and Yasushi Sakurai},
+  booktitle={30th SIGKDD Conference on Knowledge Discovery and Data Mining - Research Track},
+  year={2024},
+}
 
-All baselines can be found at https://github.com/thuml/Time-Series-Library.
+```
+
