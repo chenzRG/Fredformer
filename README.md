@@ -1,6 +1,6 @@
 ## Fredformer
 
-This is an official implementation of a KDD2024 paper, "Fredformer: Frequency Debiased Transformer for Time Series Forecasting."
+This is an official implementation of a KDD2024 paper, "Fredformer: Frequency Debiased Transformer for Time Series Forecasting." https://arxiv.org/abs/2406.09009
 
 ## Contribution
 
