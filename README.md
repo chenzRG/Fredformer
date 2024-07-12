@@ -2,6 +2,15 @@
 
 This is an official implementation of a KDD2024 paper, "Fredformer: Frequency Debiased Transformer for Time Series Forecasting."
 
+## Contribution
+
+Fredformer focuses on addressing the issue of frequency bias in Transformer models for time series forecasting. 
+This bias can cause the model to fail to capture mid-to-high-frequency information in the data. 
+We have conducted extensive case analyses on this issue and proposed a solution. For more details, please refer to our original paper.
+
+![Contribution](pics/motivation.png)
+
+
 ## Dependencies
 Fredformer is built based on PyTorch.
 You can install PyTorch following the instructions in [PyTorch](https://pytorch.org/get-started/locally/). For example:
