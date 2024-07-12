@@ -4,9 +4,10 @@ This is an official implementation of a KDD2024 paper, "Fredformer: Frequency De
 
 ## Contribution
 
-Fredformer focuses on addressing the issue of frequency bias in Transformer models for time series forecasting. 
+Fredformer focuses on addressing **the issue of frequency bias in Transformer models for time series forecasting.** 
 This bias can cause the model to fail to capture mid-to-high-frequency information in the data. 
-We have conducted extensive case analyses on this issue and proposed a solution. For more details, please refer to our original paper.
+We have __conducted empirical analyses on this issue and proposed a solution in this work.__ 
+For more details, please refer to our original paper.
 
 ![Contribution](pics/motivation.png)
 
@@ -29,7 +30,7 @@ We have prepared a dataset for this example: Weather. The CSV file is in the dat
 
 ## Custom Data Usage
 
-If you are using your own data, please format it as a CSV file, with each row representing a sample and each column representing a channel. 
+If you are using your data, please format it as a CSV file, with each row representing a sample and each column representing a channel. 
 When selecting the data type "data_name," please choose "Custom" and ensure the CSV file is stored in the `dataset` folder.
 
 ## Some main parameters:
