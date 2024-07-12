@@ -1,8 +1,8 @@
-# Fredformer
+## Fredformer
 
-This code is related to the paper "Fredformer: Frequency Debiased Transformer for Time Series Forecasting" (KDD2024).
+This is an official implementation of a KDD2024 paper, "Fredformer: Frequency Debiased Transformer for Time Series Forecasting."
 
-# Dependencies
+## Dependencies
 Fredformer is built based on PyTorch.
 You can install PyTorch following the instructions in [PyTorch](https://pytorch.org/get-started/locally/). For example:
 
@@ -15,15 +15,15 @@ After ensuring that PyTorch is installed correctly, you can install other depend
 pip install -r requirements.txt
 ```
 
-# About data:
+## About data:
 We have prepared a dataset for this example: Weather. The CSV file is in the dataset folder.
 
-# Custom Data Usage
+## Custom Data Usage
 
 If you are using your own data, please format it as a CSV file, with each row representing a sample and each column representing a channel. 
 When selecting the data type "data_name," please choose "Custom" and ensure the CSV file is stored in the `dataset` folder.
 
-# Some main parameters:
+## Some main parameters:
 
 - `--patch_len` (int, default=16): Frequency patching length.
 - `--cf_dim` (int, default=48): Feature dimension.
@@ -36,7 +36,7 @@ When selecting the data type "data_name," please choose "Custom" and ensure the 
 - `--mlp_drop` (float, default=0.3): Dropout rate for MLP.
 
 
-# Training. 
+## Training. 
 For Fredfromer:
 The scripts for our are in the directory ```./scripts/Fredformer```.
 You can run the following command, then open ```./result.txt``` to see the results once the training is done:
@@ -45,7 +45,24 @@ sh ./scripts/Fredformer/weather.sh
  ```
 Log files will be generated and updated in  ```./logs/``` during training.
 
-# Citation
+## Data Preparation Scripts
+
+All dataset scripts can currently be found in the `scripts/Fedformer/` directory. 
+
+Please note that the Electricity and Traffic datasets use the Nystrom variant of Fedformer by default. If you need to change this, set the value of `--use_nys` to `0` in the corresponding `.sh` file.
+
+```bash
+# Example: Modify the use of the Nystrom variant in the shell script for the Electricity dataset
+# Open the corresponding script file (e.g., train_electricity.sh) and find the line with --use_nys
+
+# Original line in train_electricity.sh
+--use_nys 1
+
+# Modify to disable the Nystrom variant
+--use_nys 0
+```
+
+## Citation
 If you find our work useful in your research, please consider citing:
 ```
 @inproceedings{Piao2024fredformer,
