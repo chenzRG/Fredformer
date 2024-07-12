@@ -49,7 +49,7 @@ do
       --lradj 'TST'\
       --pct_start 0.2\
       --itr 1 --batch_size 32 --learning_rate 0.01 >logs/LongForecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log \
-      --gpu 2 \
+      --gpu 0 \
       --cf_dim $cf_dim \
       --cf_depth $cf_depth \
       --cf_heads $cf_heads \
