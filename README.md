@@ -62,6 +62,12 @@ Please note that the Electricity and Traffic datasets use the Nystrom variant of
 --use_nys 0
 ```
 
+## Main Results
+
+Here are the main results of our experiment:
+
+![Main Results](pics/main_results.png)
+
 ## Citation
 If you find our work useful in your research, please consider citing:
 ```
