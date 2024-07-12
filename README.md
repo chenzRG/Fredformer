@@ -6,7 +6,8 @@ This is an official implementation of a KDD2024 paper, "Fredformer: Frequency De
 
 Fredformer focuses on addressing **the issue of frequency bias in Transformer models for time series forecasting.** 
 This bias can cause the model to fail to capture mid-to-high-frequency information in the data. 
-We have __conducted empirical analyses on this issue and proposed a solution in this work.__ 
+We have </u>conducted empirical analyses on this issue and proposed a solution</u> in this work.
+</u>Extensive experimental results on eight datasets show the effectiveness of Fredformer.</u>
 For more details, please refer to our original paper.
 
 ![Contribution](pics/motivation.png)
