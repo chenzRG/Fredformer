@@ -87,7 +87,8 @@ If you find our work useful in your research, please consider citing:
   title={Fredformer: Frequency Debiased Transformer for Time Series Forecasting},
   author={Xihao Piao and Zheng Chen and Taichi Murayama and Yasuko Matsubara and Yasushi Sakurai},
   booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
-  series = {KDD '24}
+  series = {KDD '24},
+  pages = {2400–2410},
   year={2024}
 }
 
